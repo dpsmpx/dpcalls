@@ -177,3 +177,7 @@ std::string host = cfg["хост"].as_utf8();
 cfg.set("запусков", dp::Json(cfg["запусков"].as_int(0) + 1));
 dp::json_save("config.json", cfg, dp::cs_utf8(), 2);
 ```
+
+## Роль относительно DPmetaApp
+
+Решение автора от 10–11 ноября 2026 — [docs/direction/DP_META_APP.md](docs/direction/DP_META_APP.md).
